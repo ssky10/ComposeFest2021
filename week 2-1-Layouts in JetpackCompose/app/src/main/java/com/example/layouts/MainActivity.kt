@@ -53,7 +53,7 @@ fun LayoutsCodelab() {
             )
         }
     ) { innerPadding ->
-        BodyContent(modifier = Modifier.padding(innerPadding).padding(8.dp))
+        ScrollingList()
     }
 }
 
